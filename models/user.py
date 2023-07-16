@@ -1,11 +1,15 @@
 #!/usr/bin/python3
-"""This module defines a class User"""
+"""user class, subclass of BaseModel
+"""
+
 from models.base_model import BaseModel
+import json
 
 
 class User(BaseModel):
-    """This class defines a user by various attributes"""
-    email = ''
-    password = ''
-    first_name = ''
-    last_name = ''
+    '''subclass of BaseModel class'''
+
+    email = ""
+    password = ""
+    first_name = ""
+    last_name = ""
